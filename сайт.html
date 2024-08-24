@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 60;
+            padding: 40;
+            background-color: #FF00FF;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #FF1493;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #FF00FF 3px solid;
+    
+            $cols: 10;
+$rows: 6;
+$cells: $cols * $rows;
+$bgcolor: #FF00FF;
+$shapeHeight: 230;
+$shapeWidth: 200;
+
+body {
+  margin: 0; 
+  background-color: $MediumVioletRed;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+        }
+
+        header a {
+            color: #FF1493;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://balthazar.club/o/uploads/posts/2023-10/1697241362_balthazar-club-p-priroda-zakat-solntsa-vkontakte-64.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #00FFFF;
+            background: url('https://avatars.mds.yandex.net/i?id=547018bc51b2218b55099904d5f7d4f8_l-5288364-images-thumbs&n=13') no-repeat 0 -400px;
+        }
+
+        #main h2 {
+            text-align: center;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Моя Визитка</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Добро пожаловать на мой сайт</h1>
+            <p>Я QA-Engineer</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <h2 id="about">Обо мне</h2>
+            <p>Привет! Я занимаюсь тестированием и, возможно, буду тестировать ваш продукт. Если вашей команде нужен классный тестировщик, то вы его нашли!
+
+</p>
+
+            <h2 id="portfolio">Навыки</h2>
+            <p>Работала со Swagger и Redoc. Имею опыт тестирования REST API и SOAP. Владею такими инструметами, как: Postman, Charles, Devtools</p>
+
+            <h2 id="contact">Контакты</h2>
+            <p>Номер телефона +7927000000 Лилия, г.Самара</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Моя Визитка &copy; 2024</p>
+    </footer>
+</body>
+</html>
